@@ -52,6 +52,10 @@ public class OSProcessManager {
 			e.printStackTrace();
 		}
 		JOptionPane.showMessageDialog(null, result);   
+		
+		inputstream.close();
+		inputstreamreader.close();
+		bufferedreader.close();
 	}
 	
 	
